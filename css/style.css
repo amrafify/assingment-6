@@ -1,0 +1,80 @@
+:root {
+  --backgroundColor: "rgba(214, 46, 51 , 0.6)";
+}
+header {
+  height: 95vh;
+  background-image: url(../img/Home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  .contant {
+    background-color: rgba(214, 46, 51, 0.6);
+    padding: 50px;
+    h1 {
+      font-size: 55px;
+    }
+  }
+  .menuBar {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 30px;
+    left: -100%;
+
+    /* align-items: center; */
+    a {
+      display: block;
+      color: white;
+      text-decoration: none;
+    }
+    a:hover,
+    .fa-xmark:hover {
+      color: rgba(214, 46, 51, 0.4);
+    }
+  }
+  .fa-xmark,
+  .fa-bars {
+    cursor: pointer;
+    color: white;
+  }
+}
+.singerList {
+  margin-bottom: 50px;
+  .contant {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    .title {
+      background-color: rgba(214, 46, 51, 0.6);
+      margin: 0;
+      color: white;
+      cursor: pointer;
+    }
+    .inner {
+      background-color: #eee;
+      padding: 10px;
+      display: none;
+    }
+  }
+}
+.timeOut {
+  background-image: url(../img/join.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .contant {
+    padding: 100px;
+    background-color: rgba(214, 46, 51, 0.6);
+  }
+}
+footer p,
+footer span,
+footer i {
+  color: #777777;
+}
+form input {
+  border-radius: 0px !important;
+}
